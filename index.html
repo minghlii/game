@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Eindopdracht WEBDAD I</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <h1>Safe the banana!</h1>
+
+    <div class="col m4">
+        <button class="btn" id ="btnStart">
+            Start
+        </button>
+
+        <button class="btn" id="btnPause" disabled>
+            Pauzeren
+        </button>
+
+        <button class="btn" id="btnStop" disabled>
+            Stoppen
+        </button>
+    </div>
+
+    <div id="barn">
+        <div id="cock"></div>
+        <canvas id="playground" width="700" height="500"></canvas>
+    </div>
+    <div id="score">
+        <h4>Lives: <span id="livesValue"></span> Score: <span id="scoreValue"></span> Highscore: <span id="highscoreValue"></span></h4>
+        
+    </div>
+
+    <div id="hiddenImages">
+        <img id="monkey" src="img/monkey.png" />
+        <img id="rat" src="img/rat.png" />
+        <img id="basket" src="img/basket.png" />
+        <img id="banana" src="img/banaan.png" />
+        <img id="rottenBanana" src="img/banaan-rot.png" />
+    </div>
+
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/1.7.11/fabric.min.js"></script> 
+    <script type="text/javascript" src="js/elements.js"></script>
+    <script type="text/javascript" src="js/script.js"></script> 
+</body>
+</html>

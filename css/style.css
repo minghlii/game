@@ -1,0 +1,49 @@
+html {
+    width: 100%;
+    height: 100%
+}
+
+body {
+    background: url('../img/forest.jpg') no-repeat center center;
+    background-size: cover;
+    color: #FFF;
+    text-align: center;
+}
+
+#hiddenImages {
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    opacity: 0.01;
+}
+
+#barn {
+    margin: 0 auto;
+    width: 700px;
+    height: 500px;
+    background: url('../img/field.jpg') no-repeat center center;
+    background-size: cover;
+    border: 5px solid yellow;
+    position: relative;
+}
+
+#cock {
+    position: absolute;
+    right: 0;
+    top: -100px;
+    background: url('../img/monk.png') no-repeat center center;
+    background-size: contain;
+    width: 140px;
+    height:140px;
+}
+
+#score {
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px;
+    width: 700px;
+    margin: 0 auto;
+
+}
